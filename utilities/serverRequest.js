@@ -3,7 +3,7 @@ import Storage from "./storage";
 
 const DEFAULT_HOST = process.env.NEXT_PUBLIC_API_HOST
 const REFRESH_TOKEN_PATH = '/api/v1/accounts/refresh-token/'
-const USE_TOKEN_BY_DEFAULT = true
+const USE_TOKEN_BY_DEFAULT = false
 
 /**
  * General utility function to make http calls
